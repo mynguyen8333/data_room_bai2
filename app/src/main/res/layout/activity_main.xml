@@ -53,8 +53,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcv_name"
-        android:layout_width="410dp"
-        android:layout_height="535dp"
+        android:layout_width="412dp"
+        android:layout_height="494dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

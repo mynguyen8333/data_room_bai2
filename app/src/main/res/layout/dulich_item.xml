@@ -5,53 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <View
-        android:id="@+id/view1"
-        android:layout_width="410dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/background_view"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/tv_nametp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="28dp"
         android:text="1. Đà Lạt"
         android:textColor="#0E0E0E"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view1"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imgbutton_sua"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
         android:background="#6FBDA1"
         app:layout_constraintBottom_toBottomOf="@+id/tv_nametp"
-        app:layout_constraintStart_toEndOf="@+id/tv_nametp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tv_nametp"
-        app:layout_constraintVertical_bias="0.357"
+        app:layout_constraintVertical_bias="0.428"
         app:srcCompat="@drawable/sua" />
 
     <ImageButton
         android:id="@+id/imgbutton_xoa"
         android:layout_width="44dp"
         android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
         android:background="#6FBDA1"
         app:layout_constraintBottom_toBottomOf="@+id/imgbutton_sua"
-        app:layout_constraintEnd_toEndOf="@+id/view1"
         app:layout_constraintStart_toEndOf="@+id/imgbutton_sua"
         app:layout_constraintTop_toTopOf="@+id/imgbutton_sua"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
